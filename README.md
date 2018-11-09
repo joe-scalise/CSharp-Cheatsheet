@@ -1,5 +1,6 @@
 ###### Iterations
 **do**
+
 Executes  while a specified boolean expression evaluates to `true`; executes one or more times.
 ```csharp
 int n =0;
@@ -11,6 +12,7 @@ do
 ```
 
 **for**
+
 The for statement defines an initializer, condition and iterator; all optional.
 Executes while a specified boolean expression evaluates to `true`;  different from a while loop because it requires an iterator and thus specifies an end.
 
@@ -22,6 +24,7 @@ for (int n = 0; n < 100; n++) // (initializer; condition; iterator)
 }
 ```
 **foreach, in**
+
 Executes for each element in an instance of a collection.
 
 Break out of the loop with `break`, or step to the next iteration with `continue`.  `goto`, `return`, or `throw` statements also accepted.
@@ -33,6 +36,7 @@ foreach (int element in primeNumbers)
 }
 ```
 **while**
+
 Executes while a specified boolean expression evaluates to `true`; executes zero or more times.
 ```csharp
 int n = 1;
@@ -45,6 +49,7 @@ while (true) // while (n <= 100)
 ###### Collections & Data Structures
 
 **Arrays**
+
 Declare a single-dimensional array:
 ```csharp
 string[] myArray = new string[8];
@@ -54,6 +59,7 @@ Initialize upon declaration:
 string=[] planets = {"Netpune", "Pluto", "Saturn"};
 ```
 **Hashtables**
+
 ```csharp
 using System.Collections;
 Hashtable myAlbums = new Hashtable();
